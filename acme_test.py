@@ -59,9 +59,13 @@ if __name__ == '__main__':
 
 """
 Part7 Questions:
-- Code review is important beucase if you missed something as a structural, your peer
-coluld catch it. Also, it would help to develop better and cleaner written functions
-
-- container will help us to transport all the written code in a same format, so that any people 
-who use different comuters and programs, they can read edit and improve the code.
+- Code review is important beucase of its desing. 
+Overal desing is the post important part of data rewieing. 
+Thus, this covers the correction od code, test contant, 
+functionality changes and so on
+-There are many users to work on the same projects or,
+to make the changes on the same project.Thus, ducker provides
+containers whcih are the platform as a service. it uses OS level visulization
+to get the software in the containers. Each contains have its own sowfare, libraries,
+and files. It is independent and single package.
 """
