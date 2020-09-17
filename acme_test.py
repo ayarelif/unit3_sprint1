@@ -25,7 +25,7 @@ class AcmeProductTests(unittest.TestCase):
        Test default product price being 10.
        """
        prod = Product('Test Product')
-       self.assertEqual(prod.explode(),"Test Product")
+       self.assertEqual(prod.explode(),"...boom!")
 
     def text_stealability(self):
        """

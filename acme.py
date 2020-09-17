@@ -3,7 +3,7 @@ from random import randint, sample
 import unittest
 
 class Product():
-    def __init__(self,identifier, name, price=None, weight=None,flammability=None):
+    def __init__(self, name, price=None, weight=None,flammability=None):
         self.name=name
         def_num1=10
         self.price=price if price is not None else def_num1
@@ -33,7 +33,7 @@ class Product():
 
 class BoxingGlove(Product):
   # designates the class should inherit from the product class
-    def __init__(self,identifier, name, price=None, weight=None, flammability=None):
+    def __init__(self, name, price=None, weight=None, flammability=None):
       def_num4=10
       self.weight=weight if weight is not None else def_num4  
       super().__init__(self,identifier,name)
